@@ -1,0 +1,34 @@
+* {
+    border: 1px solid black;
+}
+
+@media (max-width: 600) {
+  
+}
+
+#main-doc {
+    margin-left: 300px;
+}
+
+#navbar {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+    align-self: left;
+    top:0px;
+    left: 0px;
+    
+    width: 300px;
+    height: 100%;
+}
+
+.nav-link {
+    margin-left: 25px;
+    margin-top:10px;
+    justify-content: center;
+}
+
+.nav-grid-itens {
+  
+}
