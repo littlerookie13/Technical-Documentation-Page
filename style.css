@@ -1,13 +1,10 @@
 * {
-    /*border: 1px solid black;*/
-}
-
-@media (max-width: 600) {
-  
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #main-doc {
-    margin-left: 300px;
+    margin-left: 340px;
+    margin-top: 30px;
 }
 
 #navbar {
@@ -30,20 +27,49 @@
     border-top: 1px solid black;
 }
 
-.nav-link {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.nav01 {
-   
-}
-
 #navbar header {
     font-weight: 1000;
     font-size:25px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 20px;
     padding-right: 10px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color:rgb(66, 66, 66)
+}
+
+.main-section header {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-section p {
+    font-size: 15px;
+    color:rgb(71, 71, 71);
+    margin-left: 15px;
+}
+
+.main-section code {
+    font-size: 15px;
+    color:rgb(116, 116, 116);
+}
+
+.main-section li{
+    font-size: 15px;
+    color:rgb(54, 54, 54);
+    margin-left: 15px;
+}
+
+@media all and (max-width: 500px) {
+    #navbar{
+        position: absolute;
+        margin-left: -9999px;
+    }
+
+    #main-doc {
+        margin-left: 10px;
+    }
 }
